@@ -1,0 +1,33 @@
+{
+  "name": "dorm-supplies-api",
+  "version": "1.0.1",
+  "description": "API for dorm supplies application",
+  "main": "dorm-supplies-api.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "mongo": "mongod -f ./models/mongod.conf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkim1014/dorm-supplies.git"
+  },
+  "author": "Joon Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkim1014/dorm-supplies/issues"
+  },
+  "homepage": "https://github.com/jkim1014/dorm-supplies#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.13.9",
+    "morgan": "^1.9.0",
+    "nodejs": "0.0.0",
+    "nodemon": "^1.14.10",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
